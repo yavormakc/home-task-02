@@ -1,0 +1,93 @@
+* {
+	transition: all .1s ease-in; 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	background: black;
+}
+
+header {
+	background-color: #4a4f56;
+	padding: 20px 0;
+}
+
+footer {
+	background-color: #4a4f56;
+	width: 550px;
+	margin: auto;
+	padding: 15px 0;
+}	
+
+h1, p {
+	color: #eb7e7f;
+	text-align: center;
+}
+
+.list_diner {
+	color: white;
+	width: 550px;
+	margin: auto;
+	padding: 25px 0;		 	
+}
+
+label {
+	display: block;
+	padding: 10px;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;	
+}
+
+label:nth-child(odd) {
+	background-color:#88839e;
+}
+
+label:nth-child(even) {
+	background-color:#7a7593;
+}
+
+input:checked + span {
+	text-decoration: line-through;
+}
+
+label:first-child span:after {
+	content: " (for the next lessons about CSS)";
+	font-size: 12px;
+	color: #cdc6c6;
+}
+
+label:last-child span:after {
+	content: " (for my friends)";
+	font-size: 12px;
+	color: #cdc6c6;
+}
+
+label:nth-child(2) span:after {
+	content: " (for more CSS manipulations)";
+	font-size: 12px;
+	color: #cdc6c6;
+}
+
+label:nth-child(3) span:after {
+	content: " (because they are awesome)";
+	font-size: 12px;
+	color: #cdc6c6;
+}
+
+label:nth-child(4) span:after {
+	content: " (hm... they always disappear)";
+	font-size: 12px;
+	color: #cdc6c6;
+}
+
+label:hover {
+	background-color: #625e77;
+	border-color: #FFFFFF;
+}
+
+label:active {
+	background-color: #FA5151
+}
+
